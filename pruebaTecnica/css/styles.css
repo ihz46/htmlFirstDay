@@ -10,15 +10,15 @@ Esto es un comentario de bloque en CSS
 */
 
 /*Reset básico para eliminar estilos de todos los browser-user-agent)*/
-*{
+/**{
     margin: 0;
     padding: 0;
-}
+}*/
 
 body{
     font-size: 16px;
     font-family: x Arial, sans-serif;
-    text-align: center;
+    
    
    
 }
