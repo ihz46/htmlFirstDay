@@ -94,8 +94,37 @@ td:hover{
     background-color: chocolate;
     border-radius: 50%;
 }
+/*Estilos para la página etiquetasBasicas.html*/
+.botonEtiquetas{
+    
+        color: rgb(255, 255, 255); font-size: 20px; line-height: 20px; padding: 10px; border-radius: 20px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 3px solid rgb(28, 110, 164); display: inline-block;
+ }
 
+.botonEtiquetas:hover {
+ background: #1C6EA4; }
 
+.botonEtiquetas:active {
+background: #144E75; }    
+
+.imagen{
+    width: 1100px;
+    height: 900px;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
+.parrafoLorem{
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0099CC;
+}
+
+.tituloListas{
+    color: red;
+    text-decoration: underline;
+}
 
 
 

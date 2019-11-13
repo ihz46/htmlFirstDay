@@ -27,3 +27,7 @@ function buscarVoluntario(){
      
      
  }
+
+ function mostrarAlert(){
+     alert('Funciona correctamente el botón');
+ }
