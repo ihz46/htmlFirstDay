@@ -50,7 +50,7 @@ td:hover{
 }
 
 .parallax{
-    background-image: url('images/imagenOffice.jpg');
+    background-image: url('/pruebaTecnica/images/imagenOffice.jpg');
     height: 500px;
     background-attachment: fixed;/*Estático, no se mueve con el scroll*/
     background-position: center;
