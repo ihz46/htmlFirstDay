@@ -1,0 +1,101 @@
+/*
+HOJA DE ESTILOS 
+Esto es un comentario de bloque en CSS
+
+@autor: iñigo
+@version: 1.0
+@tags: css
+@licencia: mit
+
+*/
+
+/*Reset básico para eliminar estilos de todos los browser-user-agent)*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: x Arial, sans-serif;
+    text-align: center;
+   
+   
+}
+
+h1{
+    color: #09C;
+    font-size: 3em;
+    text-align: center;
+    
+}
+
+table{
+    width: 50%;
+    margin:auto;
+}
+
+
+
+td {
+    border: 3px solid #0099CC; /* shorthand : esto es una abreviación*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+td:hover{
+    background-color: violet;
+}
+
+.parallax{
+    background-image: url('/images/imagenOffice.jpg');
+    height: 500px;
+    background-attachment: fixed;/*Estático, no se mueve con el scroll*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;/*Coje todo el ancho de pantalla*/
+}
+
+.parallax img{
+    padding-top: 4em;
+}
+
+.parallax h1{
+    padding-bottom: 10em;
+}
+
+.parallax h2{
+    color: orange;
+}
+
+.boton{
+    background-color: plum;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+  
+}
+
+.box-animation{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #09C;
+    padding-bottom: 2px;
+}
+
+.box-animation:hover{
+    transition-duration: 2s;
+    background-color: chocolate;
+    border-radius: 50%;
+}
+
+
+
+
+
