@@ -101,17 +101,7 @@ td:hover{
     background-color: chocolate;
     border-radius: 50%;
 }
-/*Estilos para la página etiquetasBasicas.html*/
-.botonEtiquetas{
-    
-        color: rgb(255, 255, 255); font-size: 20px; line-height: 20px; padding: 10px; border-radius: 20px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 3px solid rgb(28, 110, 164); display: inline-block;
- }
-
-.botonEtiquetas:hover {
- background: #1C6EA4; }
-
-.botonEtiquetas:active {
-background: #144E75; }    
+  
 
 .imagen{
     width: 1100px;
@@ -133,30 +123,14 @@ background: #144E75; }
     text-decoration: underline;
 }
 
-/*Esto es un selector descendente*/
-.container p{
-    color:rgb(31, 0, 167);
-}
 
-.container p span{
-    background-color: cyan;
-}
-
-p .especial{
-font-weight: 600;/*bold, negrita*/
-}
-/* Selecciona solo los párrafos con la clase ‘especial¡ no es descendente.*/
-.especial{
-    color:purple;
-    background-color: rgb(20, 78, 117);
-}
 
 .subrayado{
     text-decoration: underline;
 }
 
 .texto-centrado{
-    
+    text-align: center;
 }
 
 
