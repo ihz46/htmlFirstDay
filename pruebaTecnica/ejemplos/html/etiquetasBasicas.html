@@ -20,40 +20,49 @@
 
 </head>
 
-<style>
-    /*Estilos para la página etiquetasBasicas.html*/
-    .botonEtiquetas {
 
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        line-height: 20px;
-        padding: 10px;
-        border-radius: 20px;
-        font-family: Georgia, serif;
-        font-weight: normal;
-        text-decoration: none;
-        font-style: normal;
-        font-variant: normal;
-        text-transform: none;
-        background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
-        box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
-        border: 3px solid rgb(28, 110, 164);
-        display: inline-block;
-    }
-
-    .botonEtiquetas:hover {
-        background: #1C6EA4;
-    }
-
-    .botonEtiquetas:active {
-        background: #144E75;
-    }
-</style>
 
 <body>
+    <style>
+        /*Estilos para la página etiquetasBasicas.html*/
+        .botonEtiquetas {
+
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            line-height: 20px;
+            padding: 10px;
+            border-radius: 20px;
+            font-family: Georgia, serif;
+            font-weight: normal;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+            box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+            border: 3px solid rgb(28, 110, 164);
+            display: inline-block;
+        }
+
+        .botonEtiquetas:hover {
+            background: #1C6EA4;
+        }
+
+        .botonEtiquetas:active {
+            background: #144E75;
+        }
+    </style>
+
     <h2 id="top">13/11/2019</h2>
 
-    <h1>Etiquetas básicas HTML</h1>
+    <div class="parallax">
+        <img src="images/logo-ipartek.png">
+        <h1 class="subrayado">Etiquetas básicas HTML </h1>
+
+    </div>
+
+
+
     <br>
     <br>
     <br>
@@ -219,15 +228,15 @@
 
             <p><a href="ejemplos/css/etiquetasBasicas.html#top">Ir al inicio de la página</a></p>
 
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="ejemplos/css/animaciones.html">Animacion</a>
-                <a href="ejemplos/css/basico.html">CSS Básico</a>
-                <a href="ejemplos/css/especificidad.html">Especificidad</a>
-                <a href="ejemplos/css/selectoresBasicos.html">Selectores Básicos</a>
-                <a href="ejemplos/css/selectoresAvanzados.html">Selectores Avanzados</a>
-
-            </nav>
+    <nav class="nav-bar">
+        <a class="enlace" href="index.html">Inicio</a>
+        <a class="enlace" href="ejemplos/css/animaciones.html">Animaciones</a>
+        <a class="enlace" href="ejemplos/css/basico.html">CSS Básico</a>
+        <a class="enlace" href="ejemplos/css/especificidad.html">Especificidad</a>
+        <a class="enlace" href="ejemplos/css/selectoresBasicos.html">Selectores Básicos</a>
+        <a class="enlace" href="ejemplos/css/selectoresAvanzados.html">Selectores Avanzados</a>
+    
+    </nav>
 
             <!-- JAVASCRIPT-->
             <script src="js/main.js"></script>

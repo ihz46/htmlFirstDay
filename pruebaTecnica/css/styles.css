@@ -15,69 +15,72 @@ Esto es un comentario de bloque en CSS
     padding: 0;
 }*/
 
-body{
+body {
     font-size: 16px;
     font-family: x Arial, sans-serif;
     padding-left: 10%;
-    padding-right: 10%;   
-   
+    padding-right: 10%;
+
 }
 
-code{
+code {
     color: red;
-    background-color:lightgray;
+    background-color: lightgray;
     font-family: cursive;
 
 }
 
-h1{
+h1 {
     color: #09C;
     font-size: 3em;
     text-align: center;
-    
+
 }
 
-table{
+table {
     width: 50%;
-    margin:auto;
+    margin: auto;
 }
 
 
 
 td {
-    border: 3px solid #0099CC; /* shorthand : esto es una abreviación*/
+    border: 3px solid #0099CC;
+    /* shorthand : esto es una abreviación*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     text-transform: uppercase;
     width: 50%;
 }
 
-td:hover{
+td:hover {
     background-color: violet;
 }
 
-.parallax{
+.parallax {
     background-image: url('/pruebaTecnica/images/imagenOffice.jpg');
     height: 500px;
-    background-attachment: fixed;/*Estático, no se mueve con el scroll*/
+    background-attachment: fixed;
+    /*Estático, no se mueve con el scroll*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;/*Coje todo el ancho de pantalla*/
+    background-size: cover;
+    /*Coje todo el ancho de pantalla*/
 }
 
-.parallax img{
+.parallax img {
     padding-top: 4em;
 }
 
-.parallax h1{
+.parallax h1 {
     padding-bottom: 10em;
 }
 
-.parallax h2{
+.parallax h2 {
     color: orange;
 }
 
-.boton{
+.boton {
     background-color: plum;
     border: 2px solid black;
     text-align: center;
@@ -85,10 +88,10 @@ td:hover{
     font-size: 12px;
     font-weight: bold;
     padding: 20px;
-  
+
 }
 
-.box-animation{
+.box-animation {
     display: inline-block;
     width: 200px;
     height: 200px;
@@ -96,43 +99,56 @@ td:hover{
     padding-bottom: 2px;
 }
 
-.box-animation:hover{
+.box-animation:hover {
     transition-duration: 2s;
     background-color: chocolate;
     border-radius: 50%;
 }
-  
 
-.imagen{
+
+.imagen {
     width: 1100px;
     height: 900px;
 }
 
-.tachado{
+.tachado {
     text-decoration: line-through;
 }
 
-.parrafoLorem{
+.parrafoLorem {
     font-size: 14px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #0099CC;
 }
 
-.tituloListas{
+.tituloListas {
     color: red;
     text-decoration: underline;
 }
 
 
 
-.subrayado{
+.subrayado {
     text-decoration: underline;
 }
 
-.texto-centrado{
+.texto-centrado {
     text-align: center;
 }
 
+.nav-bar {
+    height: 30px;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #0099CC;  
+    text-align: center;
+    
+}
 
+a{
+    color: rgb(0, 7, 110);
+    font-weight: 800;
+}
 
-
+a:hover{
+    background-color: lightblue;
+}
