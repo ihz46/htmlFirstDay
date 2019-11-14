@@ -18,9 +18,16 @@ Esto es un comentario de bloque en CSS
 body{
     font-size: 16px;
     font-family: x Arial, sans-serif;
-    
+    padding-left: 10%;
+    padding-right: 10%;   
    
-   
+}
+
+code{
+    color: red;
+    background-color:lightgray;
+    font-family: cursive;
+
 }
 
 h1{
@@ -125,6 +132,33 @@ background: #144E75; }
     color: red;
     text-decoration: underline;
 }
+
+/*Esto es un selector descendente*/
+.container p{
+    color:rgb(31, 0, 167);
+}
+
+.container p span{
+    background-color: cyan;
+}
+
+p .especial{
+font-weight: 600;/*bold, negrita*/
+}
+/* Selecciona solo los párrafos con la clase ‘especial¡ no es descendente.*/
+.especial{
+    color:purple;
+    background-color: rgb(20, 78, 117);
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.texto-centrado{
+    
+}
+
 
 
 
