@@ -29,6 +29,8 @@ code {
 
 }
 
+
+
 h1 {
     color: #09C;
     font-size: 3em;
@@ -36,10 +38,30 @@ h1 {
 
 }
 
+h2,
+h3 {
+    text-align: center;
+
+}
+
+a {
+    color: rgb(11, 35, 90);
+    margin: auto;
+
+    font-weight: 800;
+}
+
+a:hover {
+    background-color: lightblue;
+}
+
+
 table {
     width: 50%;
     margin: auto;
 }
+
+
 
 
 
@@ -58,32 +80,39 @@ td:hover {
 
 .parallax {
     background-image: url('/pruebaTecnica/images/imagenOffice.jpg');
-    height: 500px;
+    height: 380px;
     background-attachment: fixed;
     /*Estático, no se mueve con el scroll*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /*Coje todo el ancho de pantalla*/
+    border: 2px solid rgb(12, 38, 97);
+    border-radius: 5px;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15), 2px 1px 6px rgba(34, 31, 206, 0.45);
+
 }
 
 .parallax img {
-    padding-top: 4em;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
 }
+
 
 .parallax h1 {
-    padding-bottom: 10em;
-}
-
-.parallax h2 {
-    color: orange;
+    color: rgb(12, 38, 97);
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .boton {
-    background-color: plum;
+    background-color: rgb(114, 199, 220);
     border: 2px solid black;
+    border-radius: 10px;
     text-align: center;
-    margin-bottom: 2em;
+    margin: auto;
+    display: block;
     font-size: 12px;
     font-weight: bold;
     padding: 20px;
@@ -136,21 +165,16 @@ td:hover {
 }
 
 .nav-bar {
-    height: 30px;
-    border-radius: 30px 30px 0px 0px;
-    background-color: #0099CC;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(114, 199, 220);
     text-align: center;
+    border: 2px solid rgb(12, 38, 97);
+    ;
 
 }
 
-a {
-    color: rgb(0, 7, 110);
-    font-weight: 800;
-}
 
-a:hover {
-    background-color: lightblue;
-}
 
 .centrado {
     display: block;
@@ -158,12 +182,12 @@ a:hover {
 }
 
 section {
-    border: 2px solid #09c;
+    border: 3px solid rgb(12, 38, 97);
     border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 10px;
     padding: 10px;
-    background-color: rgb(218, 216, 228);
+    background-color: rgb(114, 199, 220);
     -webkit-box-shadow: 12px 10px 15px 0px rgba(0, 0, 0, 0.32);
     box-shadow: 12px 10px 15px 0px rgba(0, 0, 0, 0.32);
 }
