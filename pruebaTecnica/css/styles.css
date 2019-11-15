@@ -7,18 +7,28 @@ Esto es un comentario de bloque en CSS
 @tags: css
 @licencia: mit
 
+
+Orden:
+
+1. Reset Básico
+2. @keyframes
+3. Etiquetas estilos generales
+4. Layouts
+5. Clases para reutilizar
+6. Cosas especificas (id)
 */
 
-/*Reset básico para eliminar estilos de todos los browser-user-agent)*/
-/**{
+
+
+/*1. Reset básico para eliminar estilos de todos los browser-user-agent)*/
+* {
     margin: 0;
     padding: 0;
-}*/
+}
 
 body {
     font-size: 16px;
     font-family: x Arial, sans-serif;
-    padding: 20px;
 
 }
 
@@ -76,6 +86,31 @@ td {
 
 td:hover {
     background-color: violet;
+}
+
+.box {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+
+
+
+    border: 2px solid teal;
+    background-color: royalblue;
+    border-radius: 10px;
+
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.box-texto {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid teal;
 }
 
 .parallax {
@@ -170,6 +205,7 @@ td:hover {
     background-color: rgb(114, 199, 220);
     text-align: center;
     border: 2px solid rgb(12, 38, 97);
+    position: sticky;
     ;
 
 }
@@ -190,4 +226,38 @@ section {
     background-color: rgb(114, 199, 220);
     -webkit-box-shadow: 12px 10px 15px 0px rgba(0, 0, 0, 0.32);
     box-shadow: 12px 10px 15px 0px rgba(0, 0, 0, 0.32);
+}
+
+
+.contenedor .texto {
+    background-color: #00000052;
+    position: absolute;
+    bottom: -120px;
+    transition-duration: 2s;
+
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(114, 199, 220);
+    padding: 20px;
+    width: 100%;
+}
+
+.contenedor:hover .texto {
+    bottom: 0%;
+    color: white;
+    transition: all 2s ease-in-out;
+
+}
+
+.contenedor h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.contenedor .texto p {
+    text-align: justify;
 }
