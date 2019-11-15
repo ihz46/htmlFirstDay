@@ -24,12 +24,7 @@
 
     <style>
 
-        main{
-            margin:auto;
-            margin-bottom: 100px;
-            width: 1024px;
-            
-        }
+      
         .contenedor {
             /*Siempre tiene que ser relative el contenedor*/
             position: relative;
@@ -54,6 +49,14 @@
       
     </style>
 
+   
+   
+    <div class="parallax">
+        <img id="#top" src="images/logo-ipartek.png">
+        <h1>Posicionamiento</h1>
+
+    </div>
+
     <nav class="nav-bar">
         <a href="index.html">Inicio</a>
         <a href="ejemplos/css/animaciones.html">Animacion</a>
@@ -66,12 +69,6 @@
         <a href="ejemplos/html/box-model.html">Box Model</a>
     
     </nav>
-   
-    <div class="parallax">
-        <img id="#top" src="images/logo-ipartek.png">
-        <h1>Posicionamiento</h1>
-
-    </div>
 
     <main>
     <p>Existen diversas maneras de posicionamiento <code>static | relative | absolute | fixed | sticky | inherit</code>
@@ -122,8 +119,8 @@
         <p>El posicionamiento fijo es una variante del posicionamiento absoluto, pero este funciona de manera que
             siempre se queda fijo en un sitio, independientemente de que el usuario haga scroll o haga otro tipo de
             elementos.</p>
-        <div class="box">
-            <button class="botonSubir" onclick="#top"></button>>
+        <div class="box" style="position:fixed right:100px">
+           
         </div>
         <div class="box">
             <p></p>
@@ -132,12 +129,15 @@
     </section>
     <section>
         <h2>Sticky CSS3</h2>
+        <p> Se comporta como un elemento relativo, pero solo dentro del contenedor.. Es necesario aportar un valor <code>top, bottom, left o right</code> </p>
+    <div class="box" style="position:sticky; bottom:100px"></div>
+    <div class="box"></div>
     </section>
 
 
   
     </main>
-    <footer><p>Ipartek</p></footer>
+    <footer><a href="ejemplos/html/posicionamiento.html#top">SUBIR</a></footer>
 
 
 

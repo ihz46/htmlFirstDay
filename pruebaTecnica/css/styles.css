@@ -32,6 +32,13 @@ body {
 
 }
 
+main {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 1024px;
+
+}
+
 code {
     color: red;
     background-color: lightgray;
@@ -202,15 +209,19 @@ td:hover {
 .nav-bar {
     height: 50px;
     border-radius: 0px 0px 20px 20px;
-    background-color: rgb(114, 199, 220);
+    background-color: rgb(12, 38, 97);
     text-align: center;
-    border: 2px solid rgb(12, 38, 97);
+    border: 2px solid rgb(114, 199, 220);
     position: sticky;
-    ;
+    
 
 }
 
 
+.nav-bar a{
+    color:white;
+    text-transform: capitalize;
+}
 
 .centrado {
     display: block;
